@@ -27,8 +27,8 @@ ENV/
 # Environment variables (keep .env out of git!)
 .env
 
-# Streamlit
-.streamlit/
+# Streamlit — keep config but exclude secrets
+.streamlit/secrets.toml
 
 # IDEs
 .vscode/
